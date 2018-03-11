@@ -1,6 +1,5 @@
 module.exports.requestHooks = [
-    context = > {
-    console.log(context.getUrl());
-}
-]
-;
+    context => {
+        console.log(context.getUrl());
+    }
+];
