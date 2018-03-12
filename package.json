@@ -16,5 +16,8 @@
   "insomnia": {
     "name": "insomnia-plugin-stub-wiremock",
     "description": "Generate stub from request for Wiremock usage"
+  },
+  "dependencies": {
+    "jsonfile": "^4.0.0"
   }
 }

@@ -1,5 +1,3 @@
 module.exports.requestHooks = [
-    context => {
-        console.log(context.getUrl());
-    }
+  require('./src/request-header')
 ];
